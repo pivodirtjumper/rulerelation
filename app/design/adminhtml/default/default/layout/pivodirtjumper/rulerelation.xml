@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <pivodirtjumper_rulerelation_adminhtml_relation_index>
+        <reference name="content">
+            <block type="pivodirtjumper_rulerelation/adminhtml_rulerelation" name="rulerelation" />
+        </reference>
+    </pivodirtjumper_rulerelation_adminhtml_relation_index>
+
+    <pivodirtjumper_rulerelation_adminhtml_relation_edit>
+        <reference name="head">
+            <action method="setCanLoadExtJs"><flag>1</flag></action>
+            <action method="setCanLoadRulesJs"><flag>1</flag></action>
+        </reference>
+        <!--<reference name="js">
+            <block type="adminhtml/promo_catalog_edit_js" template="promo/js.phtml" />
+        </reference>!-->
+        <reference name="left">
+            <block type="pivodirtjumper_rulerelation/adminhtml_rulerelation_edit_tabs" name="promo_rulerelation_edit_tabs" />
+        </reference>
+        <reference name="content">
+            <block type="pivodirtjumper_rulerelation/adminhtml_rulerelation_edit" name="promo_rulerelation_edit" />
+        </reference>
+
+    </pivodirtjumper_rulerelation_adminhtml_relation_edit>
+
+</layout>
+

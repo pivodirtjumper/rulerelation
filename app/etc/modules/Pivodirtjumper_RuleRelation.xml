@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Pivodirtjumper_RuleRelation>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Pivodirtjumper_RuleRelation>
+    </modules>
+</config>

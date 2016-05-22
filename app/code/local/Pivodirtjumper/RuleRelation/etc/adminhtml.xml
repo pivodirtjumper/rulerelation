@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <rulerelation>
+                    <title>Rule-based product relations</title>
+                    <sort_order>15</sort_order>
+                    <action>pivodirtjumper_rulerelation/adminhtml_relation</action>
+                </rulerelation>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <rulerelation>
+                        <title>Pivodirtjumper_RuleRelation module</title>
+                        <sort_order>200</sort_order>
+                    </rulerelation>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
